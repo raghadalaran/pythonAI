@@ -79,7 +79,7 @@ def adjust_results4_isadog(results_dic, dogfile):
            
       for key in results_dic:
           if results_dic[key][0] in dognames_dic:
-            if results_dic[key][q] in dognames_dic:
+            if results_dic[key][1] in dognames_dic:
                #both dog
                results_dic[key].extend((1,1))
             else:
